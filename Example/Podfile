@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GlobalButtonSwift_Example' do
+  pod 'GlobalButtonSwift', :path => '../'
+
+  target 'GlobalButtonSwift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
