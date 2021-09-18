@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlobalButtonSwift: 7f99edb1f1c5f3d5b594cdf62c020848db7cb56b
+  GlobalButtonSwift: 7f1fcf61f4e583a1caf876e349b1f3bcc9047947
 
 PODFILE CHECKSUM: 6e22eaee718369414b5f8bbb48be5fc324654986
 

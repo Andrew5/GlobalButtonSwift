@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of GlobalButtonSwift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Mr. Zhao/GlobalButtonSwift",
+  "homepage": "https://github.com/localhost3585@gmail.com/GlobalButtonSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Mr. Zhao": "localhost3585@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Mr. Zhao/GlobalButtonSwift.git",
+    "git": "git@github.com:Andrew5/GlobalButtonSwift.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GlobalButtonSwift/Classes/*.swift"
+  "source_files": "GlobalButtonSwift/Classes/*.swift",
+  "requires_arc": true
 }
