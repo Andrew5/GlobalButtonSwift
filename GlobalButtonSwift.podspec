@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GlobalButtonSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of GlobalButtonSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mr. Zhao' => 'localhost3585@gmail.com' }
-  s.source           = { :git => 'git@github.com:Andrew5/GlobalButtonSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Andrew5/GlobalButtonSwift.git', :tag => '0.1.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GlobalButtonSwift/Classes/*.swift'
+  s.ios.source_files = 'GlobalButtonSwift/Classes/**/*.{swift}'
   s.requires_arc = true
 
   # s.resource_bundles = {

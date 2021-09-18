@@ -7,28 +7,28 @@
 //
 
 import UIKit
-import DHGlobeManager
+import GlobalButtonSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
         //环境数据模版
         let dictUAT:[String:String] = ["HostDomain":"我是UAT环境网络Domain接口","HostURL":"我是UAT环境网络URL接口","HtmlURL":"我是UAT环境H5URL"]
         let dictPRO:[String:String] = ["HostDomain":"我是PRO环境网络Domain接口","HostURL":"我是PRO环境网络URL接口","HtmlURL":"我是PRO环境H5URL"]
         let dictSIT:[String:String] = ["HostDomain":"我是SIT环境网络Domain接口","HostURL":"我是SIT环境网络URL接口","HtmlURL":"我是SIT环境H5URL"]
 
         let dict:[String:Dictionary<String, String>] = ["UAT":dictUAT, "PRO":dictPRO, "SIT":dictSIT]
-        DHGlobeManager.shared.setEnvironmentMap(dict, currectEnvironment: "UAT")
-        DHGlobeManager.shared.restartBlock = {restartBlock in
+        
+//        DHGlobeManager.setEnvironmentMap(dict, currectEnvironment: "UAT")
+        GlobalButtonSwift.DHGlobeManager.shared.setEnvironmentMap(dict, currectEnvironment: "UAT")
+        GlobalButtonSwift.DHGlobeManager.shared.restartBlock = {restartBlock in
             print("设置完环境需要清理本地数据并关闭该应用 \(restartBlock)")
         }
         
-        
-        // Override point for customization after application launch.
         return true
     }
 
@@ -43,8 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        print("当前环境配置：\(DHGlobeManager.selectedEnvMap)")
-        print("当前环境标识：\(String(describing: DHGlobeManager.envstring))")
+//        print("当前环境配置：\(DHGlobeManager.selectedEnvMap)")
+//        print("当前环境标识：\(String(describing: DHGlobeManager.envstring))")
 
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }

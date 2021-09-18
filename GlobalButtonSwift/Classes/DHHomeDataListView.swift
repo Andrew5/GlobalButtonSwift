@@ -13,19 +13,16 @@ import UIKit
 class DHHomeDataListView: UIWindow {
     
     typealias resultCallBack = (_ title: String?) ->() //声明闭包
+    
     var buttontitleCallBlock : resultCallBack?//闭包声明为属性
-
+    
+    let listView = UIView()
     //单例
     static var instance: DHHomeDataListView? = {
         var instance = DHHomeDataListView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
         return instance
     }()
 
-    class func shareInstance() -> DHHomeDataListView? {
-
-        return instance
-    }
-    
     private override init(frame: CGRect) {
         super.init(frame: frame)
         windowLevel = UIWindowLevelStatusBar - 1.0
@@ -44,10 +41,10 @@ class DHHomeDataListView: UIWindow {
     override func mutableCopy() -> Any {
         return self // SingletonClass.shared
     }
+    
     func show(aResultCallBack resultCallBack:@escaping resultCallBack){
         self.buttontitleCallBlock = resultCallBack;
 //    open func show(resultBack:@escaping locationCallBack) {
-        let listView = UIView()
         addSubview(listView)
         let H: CGFloat = 200
         listView.frame = CGRect(x: 20, y: center.y - H / 2, width: frame.size.width - 20 * 2, height: H)
@@ -112,5 +109,15 @@ class DHHomeDataListView: UIWindow {
         UserDefaults.standard.setValue(currentEnv, forKey: "TAG")
         DHGlobeManager.envstring = currentEnv
         DHGlobeManager.selectedEnvMap = DHGlobeManager.envMap[title]!
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        listView.backgroundColor = UIColor.randomColor()
+    }
+}
+extension UIColor {
+    public static func randomColor() -> UIColor {
+        let ran = UIColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: CGFloat.random(in: 0...1))
+        return ran
     }
 }

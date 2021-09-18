@@ -9,11 +9,14 @@
 import Foundation
 import UIKit
 
-public class DHGlobeManager: NSObject {
+open class DHGlobeManager {
     
-    typealias restartCallback = (Bool) ->Void //声明闭包
+    public typealias restartCallback = (Bool) ->Void //声明闭包
 
-    var restartBlock : restartCallback?//闭包声明为属性
+    //外部访问单例
+    public static let shared = DHGlobeManager()
+
+    public var restartBlock : restartCallback?//闭包声明为属性
     var startingPosition: CGPoint?
     //?判断后再拆包,不确定有值的时候就可以用 ?
     //!强制拆包,确定有值的时候可以用 !
@@ -25,19 +28,6 @@ public class DHGlobeManager: NSObject {
 
     //默认环境
     static var envMap = Dictionary<String, Dictionary<String, String>>()
-    
-    //单例
-    static let shared = DHGlobeManager()
-
-//    private override init() {}
-
-    public override func copy() -> Any {
-        return self // SingletonClass.shared
-    }
-    
-    public override func mutableCopy() -> Any {
-        return self // SingletonClass.shared
-    }
     
     //闭包
     @objc fileprivate func callblock(){
@@ -65,11 +55,14 @@ public class DHGlobeManager: NSObject {
         entryWindow!.isHidden = false
         NotificationCenter.default.addObserver(self, selector: #selector(restart), name: NSNotification.Name(rawValue: "restart"), object: nil)
     }
+    
     @objc func restart() -> Void {
+
         if (restartBlock != nil) {
             restartBlock!(true)
         }
     }
+    
     func normalDataWithTag(_ tagStr:String) {
         
         var dict:[String:String] = ["one":"One"]
@@ -91,19 +84,23 @@ public class DHGlobeManager: NSObject {
         entryWindow?.globalButton .setTitle(tagStr, for: .normal)
     }
     
-    func setEnvironmentMap(_ environmentMap: Dictionary<String, Dictionary<String, String>>, currectEnvironment: String) {
-        
+//    public static func setEnvironmentMap(_ environmentMap: Dictionary<String, Dictionary<String, String>>, currectEnvironment: String) {
+    public func setEnvironmentMap(_ environmentMap: Dictionary<String, Dictionary<String, String>>, currectEnvironment: String) {
+
+//        DHGlobeManager.shared.install()
         install()
-        
+
         DHGlobeManager.envMap = environmentMap
         if ((DHGlobeManager.envstring?.isEmpty) == nil) {
             DHGlobeManager.envstring = (UserDefaults.standard.object(forKey: "TAG") != nil) ? UserDefaults.standard.object(forKey: "TAG") as? String : currectEnvironment
+//            DHGlobeManager.shared.normalDataWithTag(DHGlobeManager.envstring!)
             normalDataWithTag(DHGlobeManager.envstring!)
             return;
         }
         DHGlobeManager.envstring = DHGlobeManager.envstring;
     }
 }
+
     
 
 

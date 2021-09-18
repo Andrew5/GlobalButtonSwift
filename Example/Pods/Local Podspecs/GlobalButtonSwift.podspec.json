@@ -1,6 +1,6 @@
 {
   "name": "GlobalButtonSwift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of GlobalButtonSwift.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/localhost3585@gmail.com/GlobalButtonSwift",
@@ -13,11 +13,13 @@
   },
   "source": {
     "git": "git@github.com:Andrew5/GlobalButtonSwift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GlobalButtonSwift/Classes/*.swift",
+  "ios": {
+    "source_files": "GlobalButtonSwift/Classes/**/*.{swift}"
+  },
   "requires_arc": true
 }
