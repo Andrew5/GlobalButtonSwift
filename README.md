@@ -4,10 +4,12 @@
 [![Version](https://img.shields.io/cocoapods/v/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
 [![License](https://img.shields.io/cocoapods/l/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
 [![Platform](https://img.shields.io/cocoapods/p/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
+GlobalButtonSwift实现全局按钮切换环境，纯swift版本
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 
 ## Requirements
 

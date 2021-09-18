@@ -1,0 +1,6 @@
+framework module GlobalButtonSwift {
+  umbrella header "GlobalButtonSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
