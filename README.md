@@ -6,6 +6,8 @@ GlobalButtonSwift实现全局按钮切换环境，纯swift版本
 [![Version](https://img.shields.io/cocoapods/v/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
 [![License](https://img.shields.io/cocoapods/l/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
 [![Platform](https://img.shields.io/cocoapods/p/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
+
+
 [![CI Status](https://img.shields.io/travis/Mr. Zhao/GlobalButtonSwift.svg?style=flat)](https://travis-ci.org/Mr. Zhao/GlobalButtonSwift)
 
 ## Example
