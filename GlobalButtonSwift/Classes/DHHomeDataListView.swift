@@ -25,7 +25,7 @@ class DHHomeDataListView: UIWindow {
 
     private override init(frame: CGRect) {
         super.init(frame: frame)
-        windowLevel = UIWindowLevelStatusBar - 1.0
+        windowLevel = UIWindow.Level.statusBar - 1.0
         backgroundColor = UIColor.clear
         isHidden = true
     }
@@ -102,7 +102,7 @@ class DHHomeDataListView: UIWindow {
         }
         var currentIndex: NSInteger = 0
         if envKeys.contains(title) {
-            currentIndex = envKeys.index(of: title)!
+            currentIndex = envKeys.firstIndex(of: title)!
         }
         let nextEnvIndex: NSInteger = (currentIndex ) % envKeys.count;
         let currentEnv: String = envKeys[nextEnvIndex];

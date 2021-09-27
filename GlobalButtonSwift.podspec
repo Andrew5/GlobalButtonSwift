@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'git@github.com:Andrew5/GlobalButtonSwift.git', :tag => '0.1.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.ios.source_files = 'GlobalButtonSwift/Classes/**/*.{swift}'
   s.requires_arc = true

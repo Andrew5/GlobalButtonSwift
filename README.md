@@ -11,17 +11,18 @@ GlobalButtonSwift实现全局按钮切换环境，纯swift版本
 [![CI Status](https://img.shields.io/travis/Mr. Zhao/GlobalButtonSwift.svg?style=flat)](https://travis-ci.org/Mr. Zhao/GlobalButtonSwift)
 
 ## Example
-
-pod 'GlobalButtonSwift'
+```
+pod 'GlobalButtonSwift',:git => 'git@github.com:Andrew5/GlobalButtonSwift.git'
+```
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 
 ## Usage method 
 
 
-
-import GlobalButtonSwift
 ```
+import GlobalButtonSwift
+
 //环境数据模版
 let dictUAT:[String:String] = ["HostDomain":"我是UAT环境网络Domain接口","HostURL":"我是UAT环境网络URL接口","HtmlURL":"我是UAT环境H5URL"]
 let dictPRO:[String:String] = ["HostDomain":"我是PRO环境网络Domain接口","HostURL":"我是PRO环境网络URL接口","HtmlURL":"我是PRO环境H5URL"]
@@ -42,7 +43,7 @@ GlobalButtonSwift is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GlobalButtonSwift'
+pod 'GlobalButtonSwift',:git => 'git@github.com:Andrew5/GlobalButtonSwift.git'
 ```
 
 ## Author

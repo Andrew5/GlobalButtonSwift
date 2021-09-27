@@ -27,7 +27,7 @@ class DHGlobalView: UIWindow {
         screenH = UIScreen.main.bounds.size.height
 
         backgroundColor = UIColor.clear
-        windowLevel = UIWindowLevelAlert
+        windowLevel = UIWindow.Level.alert
         layer.masksToBounds = true
 
         rootViewController = UIViewController()
@@ -44,7 +44,7 @@ class DHGlobalView: UIWindow {
     
     lazy var globalButton: UIButton = {
         
-        let button = UIButton(type: UIButtonType.custom)
+        let button = UIButton(type: UIButton.ButtonType.custom)
         button.frame = self.bounds
         button.backgroundColor = UIColor.orange
         button.layer.cornerRadius = buttonW/2
@@ -69,9 +69,9 @@ class DHGlobalView: UIWindow {
         
         let point = panGesture.translation(in: self)
         
-        if panGesture.state == UIGestureRecognizerState.began{
+        if panGesture.state == UIGestureRecognizer.State.began{
            
-        }else if panGesture.state == UIGestureRecognizerState.changed{
+        }else if panGesture.state == UIGestureRecognizer.State.changed{
             
             if self.frame.origin.x + point.x <= 0 || self.frame.origin.x + point.x >= screenW - self.frame.size.width {
                 if self.frame.origin.y + point.y <= NavBar_H || self.frame.origin.y + point.y >= screenH - BottomBar_H - self.frame.size.height - 44  {

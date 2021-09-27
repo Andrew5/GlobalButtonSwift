@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         //环境数据模版
         let dictUAT:[String:String] = ["HostDomain":"我是UAT环境网络Domain接口","HostURL":"我是UAT环境网络URL接口","HtmlURL":"我是UAT环境H5URL"]
