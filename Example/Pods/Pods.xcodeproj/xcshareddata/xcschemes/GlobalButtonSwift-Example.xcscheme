@@ -17,7 +17,7 @@
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
                BuildableName = "GlobalButtonSwift_Example.app"
                BlueprintName = "GlobalButtonSwift_Example"
-               ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+               ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,49 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "GlobalButtonSwift_Tests.xctest"
                BlueprintName = "GlobalButtonSwift_Tests"
-               ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+               ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EAD29F81471E179819A847C71A08ED6B"
+               BuildableName = "Pods_GlobalButtonSwift_Example.framework"
+               BlueprintName = "Pods-GlobalButtonSwift_Example"
+               ReferencedContainer = "container:Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CC29C1FD3B7A8391F74217A3771A20CD"
+               BuildableName = "Pods_GlobalButtonSwift_Tests.framework"
+               BlueprintName = "Pods-GlobalButtonSwift_Tests"
+               ReferencedContainer = "container:Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "661F37A626C7A348CF4FA352FFE1C503"
+               BuildableName = "GlobalButtonSwift.framework"
+               BlueprintName = "GlobalButtonSwift"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +89,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "GlobalButtonSwift_Example.app"
             BlueprintName = "GlobalButtonSwift_Example"
-            ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+            ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -58,7 +100,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "GlobalButtonSwift_Tests.xctest"
                BlueprintName = "GlobalButtonSwift_Tests"
-               ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+               ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -80,7 +122,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "GlobalButtonSwift_Example.app"
             BlueprintName = "GlobalButtonSwift_Example"
-            ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+            ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -97,7 +139,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "GlobalButtonSwift_Example.app"
             BlueprintName = "GlobalButtonSwift_Example"
-            ReferencedContainer = "container:GlobalButtonSwift.xcodeproj">
+            ReferencedContainer = "container:../GlobalButtonSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+language: swift
+xcode_project: ./GlobalButtonSwift.xcworkspace # 项目文件相对于.travis.yml文件的路径
+
+xcode_scheme: GlobalButtonSwift #你需要集成测试的scheme
