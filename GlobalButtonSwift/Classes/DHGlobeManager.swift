@@ -19,7 +19,7 @@ open class DHGlobeManager {
     public var restartBlock : restartCallback?//闭包声明为属性
     var startingPosition: CGPoint?
     //?判断后再拆包,不确定有值的时候就可以用 ?
-    //!强制拆包,确定有值的时候可以用 !
+    //!强制拆包,确定有值的时候可以用 !//可选变量存在
     //as? 向下转型
     var entryWindow: DHGlobalView?
 //    在类中，存储型属性、计算型属性、方法用static修饰，是为类属性、类方法（静态属性、静态方法）。PS: 在使用类属性或类方法时，如果需要子类继承重写，则使用class关键字修饰。
