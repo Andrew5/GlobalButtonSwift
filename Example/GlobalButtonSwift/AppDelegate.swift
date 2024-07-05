@@ -28,16 +28,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("设置完环境需要清理本地数据并关闭该应用 \(restartBlock)---\(type(of: restartBlock)) --这里执行EXIT")
             // 获取当前环境对应的配置字典
             let currentEnvironmentConfig = GlobalButtonSwift.DHGlobeManager.selectedEnvMap
-
+            
             // 设想使用场景：获取当前环境的 HostDomain
             if let hostDomain = currentEnvironmentConfig["baseURLString"] {
                 print("当前环境的baseURLString为: \(hostDomain)")
                 ViewController.baseURLString = hostDomain
             }
-//            // 清理本地数据
+            exit(0)
+            // 清理本地数据
 //            DHGlobeAppManager.clearLocalData()
-//             
-//             // 模拟应用重启
+            // 模拟应用重启
 //            DHGlobeAppManager.restartApp()
         }
 

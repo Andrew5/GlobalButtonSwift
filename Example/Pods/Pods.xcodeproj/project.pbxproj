@@ -15,6 +15,12 @@
 		54CC5E9358ECDC5549D1EDC183F61619 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876BA64C8074EE6B2D531499181548D /* ReplaceMe.swift */; };
 		7B2E98F12C16F319EC6A4F5DFB976CE0 /* DHGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263132BC7266052A28C0ADBA78AEB160 /* DHGlobalView.swift */; };
 		803CB8CA4D218F2E6C647DC6B237FD41 /* DHHomeDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */; };
+		83E97F972C38267A007DD7BE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 83E97F902C38267A007DD7BE /* .gitkeep */; };
+		83E97F982C38267A007DD7BE /* DHGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F912C38267A007DD7BE /* DHGlobalView.swift */; };
+		83E97F992C38267A007DD7BE /* DHGlobeAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */; };
+		83E97F9A2C38267A007DD7BE /* DHGlobeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F932C38267A007DD7BE /* DHGlobeManager.swift */; };
+		83E97F9B2C38267A007DD7BE /* DHHomeDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */; };
+		83E97F9C2C38267A007DD7BE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F952C38267A007DD7BE /* ReplaceMe.swift */; };
 		89BDCAF2899104500F6329C7564C0530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8B2915819317E05E73D8AF3E013FBB2F /* Pods-GlobalButtonSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49206592B2E4FCB11D83225073786574 /* Pods-GlobalButtonSwift_Tests-dummy.m */; };
 		DD2FBDD02BA758BD9F3631B077EEFC84 /* GlobalButtonSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996A59AC2CFD601476FF868712D48E1 /* GlobalButtonSwift-dummy.m */; };
@@ -56,6 +62,12 @@
 		6F5B344C315536E678BCD6C419188D96 /* DHGlobeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobeManager.swift; path = GlobalButtonSwift/Classes/DHGlobeManager.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81B7CF88B7A9B3BA625DADF44150F207 /* Pods-GlobalButtonSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		83E97F902C38267A007DD7BE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		83E97F912C38267A007DD7BE /* DHGlobalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobalView.swift; sourceTree = "<group>"; };
+		83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobeAppManager.swift; sourceTree = "<group>"; };
+		83E97F932C38267A007DD7BE /* DHGlobeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobeManager.swift; sourceTree = "<group>"; };
+		83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHHomeDataListView.swift; sourceTree = "<group>"; };
+		83E97F952C38267A007DD7BE /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8B0E99468AC08F2A0019E036ECF44957 /* Pods-GlobalButtonSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalButtonSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FE523777FF7E6B97EC7815C22A2D8DB /* GlobalButtonSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlobalButtonSwift.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -150,6 +162,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		83E97F962C38267A007DD7BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83E97F902C38267A007DD7BE /* .gitkeep */,
+				83E97F912C38267A007DD7BE /* DHGlobalView.swift */,
+				83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */,
+				83E97F932C38267A007DD7BE /* DHGlobeManager.swift */,
+				83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */,
+				83E97F952C38267A007DD7BE /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = GlobalButtonSwift/Classes;
+			sourceTree = "<group>";
+		};
 		99AD3ADA404C20DBAF3866CC82D1C123 /* Pods-GlobalButtonSwift_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +205,7 @@
 		C95552C1B43D8DF520BA3B92182601CA /* GlobalButtonSwift */ = {
 			isa = PBXGroup;
 			children = (
+				83E97F962C38267A007DD7BE /* Classes */,
 				263132BC7266052A28C0ADBA78AEB160 /* DHGlobalView.swift */,
 				6F5B344C315536E678BCD6C419188D96 /* DHGlobeManager.swift */,
 				E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */,
@@ -359,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E97F972C38267A007DD7BE /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +421,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2E98F12C16F319EC6A4F5DFB976CE0 /* DHGlobalView.swift in Sources */,
+				83E97F992C38267A007DD7BE /* DHGlobeAppManager.swift in Sources */,
+				83E97F9B2C38267A007DD7BE /* DHHomeDataListView.swift in Sources */,
 				24CF55B2A42A3574E14D7E6A06B3F53A /* DHGlobeManager.swift in Sources */,
+				83E97F9C2C38267A007DD7BE /* ReplaceMe.swift in Sources */,
 				803CB8CA4D218F2E6C647DC6B237FD41 /* DHHomeDataListView.swift in Sources */,
+				83E97F982C38267A007DD7BE /* DHGlobalView.swift in Sources */,
 				DD2FBDD02BA758BD9F3631B077EEFC84 /* GlobalButtonSwift-dummy.m in Sources */,
 				54CC5E9358ECDC5549D1EDC183F61619 /* ReplaceMe.swift in Sources */,
+				83E97F9A2C38267A007DD7BE /* DHGlobeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

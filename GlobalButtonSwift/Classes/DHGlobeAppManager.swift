@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class DHGlobeAppManager {
+open class DHGlobeAppManager {
     
     // 清理本地数据
     static func clearLocalData() {

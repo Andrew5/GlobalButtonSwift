@@ -1,41 +1,38 @@
 # GlobalButtonSwift
 
-GlobalButtonSwift实现全局按钮切换环境，纯swift版本
-
-
-[![Version](https://img.shields.io/cocoapods/v/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
-[![License](https://img.shields.io/cocoapods/l/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
-[![Platform](https://img.shields.io/cocoapods/p/GlobalButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GlobalButtonSwift)
-
-
-[![CI Status](https://img.shields.io/travis/Mr. Zhao/GlobalButtonSwift.svg?style=flat)](https://travis-ci.org/Mr. Zhao/GlobalButtonSwift)
-
-## Example
-```
-pod 'GlobalButtonSwift',:git => 'git@github.com:Andrew5/GlobalButtonSwift.git'
-```
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+## Disclaimer
+GlobalButtonSwift纯swift版本,实现全局按钮切换环境，仅为提供环境切换带来便捷入口
 
 ## Usage method 
 
+```
+        // 环境数据模版
+        let dictUAT:[String:String] = ["baseURLString":"https://api-uat.baidu.v1"]
+        let dictPRO:[String:String] = ["baseURLString":"https://api.baidu.v1"]
+        
+        let dict:[String:Dictionary<String, String>] = ["UAT":dictUAT, "PRO":dictPRO]
+        
+        GlobalButtonSwift.DHGlobeManager.shared.setEnvironmentMap(dict, currectEnvironment: "UAT")
+       
+        GlobalButtonSwift.DHGlobeManager.shared.restartBlock = { restartBlock in
+            print("设置完环境需要清理本地数据并关闭该应用 \(restartBlock)---\(type(of: restartBlock)) --这里执行EXIT")
+            // 获取当前环境对应的配置字典
+            let currentEnvironmentConfig = GlobalButtonSwift.DHGlobeManager.selectedEnvMap
+
+            // 设想使用场景：获取当前环境的 HostDomain
+            if let hostDomain = currentEnvironmentConfig["baseURLString"] {
+                print("当前环境的baseURLString为: \(hostDomain)")
+                ViewController.baseURLString = hostDomain
+            }
+            exit(0)
+//            // 清理本地数据
+//            DHGlobeAppManager.clearLocalData()
+//             
+//             // 模拟应用重启
+//            DHGlobeAppManager.restartApp()
+        }
 
 ```
-import GlobalButtonSwift
-
-//环境数据模版
-let dictUAT:[String:String] = ["HostDomain":"我是UAT环境网络Domain接口","HostURL":"我是UAT环境网络URL接口","HtmlURL":"我是UAT环境H5URL"]
-let dictPRO:[String:String] = ["HostDomain":"我是PRO环境网络Domain接口","HostURL":"我是PRO环境网络URL接口","HtmlURL":"我是PRO环境H5URL"]
-let dictSIT:[String:String] = ["HostDomain":"我是SIT环境网络Domain接口","HostURL":"我是SIT环境网络URL接口","HtmlURL":"我是SIT环境H5URL"]
-
-let dict:[String:Dictionary<String, String>] = ["UAT":dictUAT, "PRO":dictPRO, "SIT":dictSIT]
-
-GlobalButtonSwift.DHGlobeManager.shared.setEnvironmentMap(dict, currectEnvironment: "UAT")
-GlobalButtonSwift.DHGlobeManager.shared.restartBlock = {restartBlock in
-    print("设置完环境需要清理本地数据并关闭该应用 \(restartBlock)")
-}
-```
-## Requirements
 
 ## Installation
 
