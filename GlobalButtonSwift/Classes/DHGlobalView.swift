@@ -56,7 +56,7 @@ class DHGlobalView: UIWindow {
     @objc func tagAddAlert(){
         
         if ((DHHomeDataListView.instance?.isHidden) != nil) {
-            DHHomeDataListView.instance?.show(aResultCallBack: { [self] (title: String?) in
+            DHHomeDataListView.instance?.show(resultCallBack: { [self] (title: String?) in
                 globalButton.setTitle(title, for: .normal)
                 NotificationCenter.default.post(name: NSNotification.Name(rawValue: "restart"), object: nil)
             })

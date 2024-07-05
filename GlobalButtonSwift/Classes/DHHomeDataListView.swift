@@ -12,14 +12,14 @@ import UIKit
 
 class DHHomeDataListView: UIWindow {
     
-    typealias resultCallBack = (_ title: String?) ->() //声明闭包
-    
-    var buttontitleCallBlock : resultCallBack?//闭包声明为属性
-    
+    typealias ResultCallBack = (_ title: String?) -> Void // 声明闭包
+
+    var buttontitleCallBlock: ResultCallBack? // 闭包声明为属性
+
     let listView = UIView()
     //单例
     static var instance: DHHomeDataListView? = {
-        var instance = DHHomeDataListView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        var instance = DHHomeDataListView(frame: UIScreen.main.bounds)
         return instance
     }()
 
@@ -42,8 +42,8 @@ class DHHomeDataListView: UIWindow {
         return self // SingletonClass.shared
     }
     
-    func show(aResultCallBack resultCallBack:@escaping resultCallBack){
-        self.buttontitleCallBlock = resultCallBack;
+    func show(resultCallBack: @escaping ResultCallBack) {
+        self.buttontitleCallBlock = resultCallBack
 //    open func show(resultBack:@escaping locationCallBack) {
         addSubview(listView)
         let H: CGFloat = 200
@@ -78,9 +78,10 @@ class DHHomeDataListView: UIWindow {
     }
     
     @objc func changeIndex(segment: UIButton) {
-        changeEnvironmentWithTag(segment.currentTitle!)
+        guard let title = segment.currentTitle else { return }
+        changeEnvironmentWithTag(title)
         hide();
-        self.buttontitleCallBlock!(DHGlobeManager.envstring!)
+        buttontitleCallBlock?(DHGlobeManager.envstring)
     }
     
     func hide() {
@@ -97,10 +98,10 @@ class DHHomeDataListView: UIWindow {
         for item in DHGlobeManager.envMap.keys {
             envKeys.append(item)
         }
-        if envKeys.count <= 0 {
-            return;
-        }
-        var currentIndex: NSInteger = 0
+        if envKeys.isEmpty {
+                   return
+               }
+        var currentIndex: Int = 0
         if envKeys.contains(title) {
             currentIndex = envKeys.firstIndex(of: title)!
         }

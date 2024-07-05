@@ -58,7 +58,7 @@
 		81B7CF88B7A9B3BA625DADF44150F207 /* Pods-GlobalButtonSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		8B0E99468AC08F2A0019E036ECF44957 /* Pods-GlobalButtonSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalButtonSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FE523777FF7E6B97EC7815C22A2D8DB /* GlobalButtonSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlobalButtonSwift.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3D24529258BF82065E9C70F1E42730 /* Pods-GlobalButtonSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		A092CA64B20BE7408FF0129EEC0E43A7 /* Pods-GlobalButtonSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B19B6F4A6A9D0B1E389AD468A2974A82 /* GlobalButtonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalButtonSwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -69,13 +69,13 @@
 		C876BA64C8074EE6B2D531499181548D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GlobalButtonSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CCE647AE375E44DA44264457B9193D54 /* Pods-GlobalButtonSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GlobalButtonSwift_Example"; path = Pods_GlobalButtonSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F78860D9B5139152D0BA93ACD3BA69 /* Pods-GlobalButtonSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E42FF2B1311B0F9BEC63F6047762BADD /* GlobalButtonSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlobalButtonSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E42FF2B1311B0F9BEC63F6047762BADD /* GlobalButtonSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GlobalButtonSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5CD82338BBAA295396F5FB5431CFA3E /* GlobalButtonSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlobalButtonSwift; path = GlobalButtonSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHHomeDataListView.swift; path = GlobalButtonSwift/Classes/DHHomeDataListView.swift; sourceTree = "<group>"; };
-		F58C9CDA33909EF2E1FDED3A58D623EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F58C9CDA33909EF2E1FDED3A58D623EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB657E9F68966F3B8B63E4FD10031B00 /* Pods-GlobalButtonSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDE58C57AAA80B5A130A94CCEDC9ED0E /* Pods-GlobalButtonSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalButtonSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE0A180A3FBF1CBA0E7FB9AEB3A406F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE0A180A3FBF1CBA0E7FB9AEB3A406F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -602,8 +602,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

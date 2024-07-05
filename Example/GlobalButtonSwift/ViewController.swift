@@ -7,44 +7,79 @@
 //
 
 import UIKit
+import GlobalButtonSwift
 
 class ViewController: UIViewController {
-
-
+    @objc
+    static var baseURLString = "https://api-uat.bnto.rent"
+    
+    fileprivate let submitButton: UIButton = {
+        let label = UIButton()
+        label.titleLabel?.textAlignment = .center
+        label.setTitle("JOIN NOW", for: .normal)
+        label.setTitleColor(UIColor.black, for: .normal)
+        label.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         
-        func viewDidLoad() {
-            super.viewDidLoad()
+        self.view.addSubview(submitButton)
+        submitButton.addTarget(self, action: #selector(joinnowAction(_:)), for: .touchUpInside)
+        
+//        let dictUAT:[String:String] = ["devbaseURLString":"https://api-uat.bnto.rent"]
+//        let dictPRO:[String:String] = ["baseURLString":"https://api.bnto.rent"]
+//        
+//        let dict:[String:Dictionary<String, String>] = ["UAT":dictUAT, "PRO":dictPRO]
+//        
+//        GlobalButtonSwift.DHGlobeManager.shared.setEnvironmentMap(dict, currectEnvironment: "UAT")
+//        GlobalButtonSwift.DHGlobeManager.shared.restartBlock = { restartBlock in
+//            print("设置完环境需要清理本地数据并关闭该应用 \(restartBlock)---\(type(of: restartBlock))")
+//        }
+//        // 获取当前环境的标识，比如 "UAT" 或 "PRO"
+////        let currentEnvironment = GlobalButtonSwift.DHGlobeManager.envstring
+//
+//        // 获取当前环境对应的配置字典
+//        let currentEnvironmentConfig = GlobalButtonSwift.DHGlobeManager.selectedEnvMap
+//
+//        // 设想使用场景：获取当前环境的 HostDomain
+//        if let hostDomain = currentEnvironmentConfig["devbaseURLString"] {
+//            print("当前环境的HostDomain为: \(hostDomain)")
+//            ViewController.baseURLString = hostDomain
+//        }
+        
+        
+    }
+    @objc
+    func joinnowAction(_ sender: UIButton) {
+        loadEnvironment()
+    }
+    func loadEnvironment(){
+        // 获取当前环境的标识，比如 "UAT" 或 "PRO"
+        let currentEnvironment = DHGlobeManager.envstring
 
-        }
-        demo(name: "", age: 16)
+        // 获取当前环境对应的配置字典
+        let currentEnvironmentConfig = DHGlobeManager.selectedEnvMap
 
-        func demo(name: String?, age: Int?) {
-            /*
-             'name'至此会有两个
-              * 1.String  name('guard let'守护,等号右边的'name')
-              * 2.String? name('guard let'守护,等号右边的'name')
-              * 3.这里正常应该选择不带'?'的'name',但是即便是选择了('Optional'的'name'),编译器也会帮你更正过来,这就是取名的技巧
-             */
-            guard let name = name,
-                let age = age else {
-                print("姓名或年龄为nil")
-                return
-            }
-            print(name + String(age))   // 输出:老王11('name'和'age'为不带'Optional'的)
+        // 设想使用场景：获取当前环境的 HostDomain
+        if let hostDomain = currentEnvironmentConfig["devbaseURLString"] {
+            print("当前环境的HostDomain为: \(hostDomain)---\(String(describing: currentEnvironment))")
         }
-        func viewWillAppear(animated: Bool) {
-            super.viewWillAppear(animated)
+        print("ViewController.baseURLString\(ViewController.baseURLString)")
 
-        }
+    }
+
+    func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
