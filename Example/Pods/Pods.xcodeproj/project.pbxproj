@@ -8,94 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		060AD4E0A14CB3805F13A5FD4CFBEE77 /* Pods-GlobalButtonSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C319BA6D0A374636E6520A85D719E383 /* Pods-GlobalButtonSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A035DA7FBEEE13BB4CA737540E337D3 /* GlobalButtonSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6818B3E18E4C7F540F8E8C921C10D171 /* GlobalButtonSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24CF55B2A42A3574E14D7E6A06B3F53A /* DHGlobeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B344C315536E678BCD6C419188D96 /* DHGlobeManager.swift */; };
+		11FE3ED1B9FC3C184E5A6AD2C95ACB26 /* DHGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5445519E80E91127F558353A24F108 /* DHGlobalView.swift */; };
+		11FE9FCC7F1C94BA880FF5CF889A91F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		31BDACDEFB2BBCF98252E8CEBA363A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		344D3F6300FD77A513DD7C4F3BAAA394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		54CC5E9358ECDC5549D1EDC183F61619 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876BA64C8074EE6B2D531499181548D /* ReplaceMe.swift */; };
-		7B2E98F12C16F319EC6A4F5DFB976CE0 /* DHGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263132BC7266052A28C0ADBA78AEB160 /* DHGlobalView.swift */; };
-		803CB8CA4D218F2E6C647DC6B237FD41 /* DHHomeDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */; };
-		83E97F972C38267A007DD7BE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 83E97F902C38267A007DD7BE /* .gitkeep */; };
-		83E97F982C38267A007DD7BE /* DHGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F912C38267A007DD7BE /* DHGlobalView.swift */; };
-		83E97F992C38267A007DD7BE /* DHGlobeAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */; };
-		83E97F9A2C38267A007DD7BE /* DHGlobeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F932C38267A007DD7BE /* DHGlobeManager.swift */; };
-		83E97F9B2C38267A007DD7BE /* DHHomeDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */; };
-		83E97F9C2C38267A007DD7BE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E97F952C38267A007DD7BE /* ReplaceMe.swift */; };
-		89BDCAF2899104500F6329C7564C0530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F6B3ADACA5B97DADB61EFD2409136C3 /* GlobalButtonSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475E7FE42DCFB682EA492DCADF0A4274 /* GlobalButtonSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A18EF79447ABBDD1C1C0D19D9D681A7 /* DHGlobeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7541DB48116E59A5D4E82518BD1F7EFF /* DHGlobeManager.swift */; };
 		8B2915819317E05E73D8AF3E013FBB2F /* Pods-GlobalButtonSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49206592B2E4FCB11D83225073786574 /* Pods-GlobalButtonSwift_Tests-dummy.m */; };
-		DD2FBDD02BA758BD9F3631B077EEFC84 /* GlobalButtonSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996A59AC2CFD601476FF868712D48E1 /* GlobalButtonSwift-dummy.m */; };
+		A366079CE784119AFA3A034E5A3EAA35 /* GlobalButtonSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E023DF5DDB404E2695FFB8458D8B9A /* GlobalButtonSwift-dummy.m */; };
+		B3DBE0CE7BEB35B56B8454441B02A89F /* DHGlobeAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB62418F30C27E5E7279A297B813DF8 /* DHGlobeAppManager.swift */; };
+		BC0422FBFE08F069208299AB9A6F2CDC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3D72F75B006CCE6C1A6294DF38A5 /* ReplaceMe.swift */; };
+		BD71C2DCCD863230C16C51938A69939C /* DHHomeDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C4F20B0654E539CAE22493D3395B1 /* DHHomeDataListView.swift */; };
 		F37C803BD0D8B0F774F0BBE8B7BBC7C5 /* Pods-GlobalButtonSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D7138AA40A6E92A733495E41A1B2C /* Pods-GlobalButtonSwift_Example-dummy.m */; };
 		F83D3CAB22E0C42929AAD74732ABAB67 /* Pods-GlobalButtonSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9EB94861346CB58A64CA9F688AC7C0 /* Pods-GlobalButtonSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1AB4772BC646C2B217907D849B5BC99E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAD29F81471E179819A847C71A08ED6B;
-			remoteInfo = "Pods-GlobalButtonSwift_Example";
-		};
-		760BDE53DD525F1F0C620E49B4BF674D /* PBXContainerItemProxy */ = {
+		5993ED0FA900952BCBB4E70FEB1A3F54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 661F37A626C7A348CF4FA352FFE1C503;
 			remoteInfo = GlobalButtonSwift;
 		};
+		AEDB7BDB5949FDCB8907AD4EA7E3C0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD29F81471E179819A847C71A08ED6B;
+			remoteInfo = "Pods-GlobalButtonSwift_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01980C1136E001848C70924C737E5130 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		08DC0E476B1F48737C647834C08CF660 /* Pods-GlobalButtonSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0AEAE42D0C76EE6626090266EAFAF4F5 /* GlobalButtonSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalButtonSwift.release.xcconfig; sourceTree = "<group>"; };
 		0D9EB94861346CB58A64CA9F688AC7C0 /* Pods-GlobalButtonSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobalButtonSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		0EA24ED245C9C61BA768F159E883AC9D /* GlobalButtonSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalButtonSwift-prefix.pch"; sourceTree = "<group>"; };
+		11A789711FDC0B9616B502EF7D2C3B3B /* GlobalButtonSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlobalButtonSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B7C4F20B0654E539CAE22493D3395B1 /* DHHomeDataListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHHomeDataListView.swift; path = GlobalButtonSwift/Classes/DHHomeDataListView.swift; sourceTree = "<group>"; };
 		1C9D7138AA40A6E92A733495E41A1B2C /* Pods-GlobalButtonSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobalButtonSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		263132BC7266052A28C0ADBA78AEB160 /* DHGlobalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobalView.swift; path = GlobalButtonSwift/Classes/DHGlobalView.swift; sourceTree = "<group>"; };
-		2996A59AC2CFD601476FF868712D48E1 /* GlobalButtonSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlobalButtonSwift-dummy.m"; sourceTree = "<group>"; };
+		469596BD511762C9232416EA9AE3F159 /* GlobalButtonSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlobalButtonSwift.modulemap; sourceTree = "<group>"; };
+		475E7FE42DCFB682EA492DCADF0A4274 /* GlobalButtonSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalButtonSwift-umbrella.h"; sourceTree = "<group>"; };
 		48685815940EDAAE094112889B5066BA /* Pods-GlobalButtonSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49206592B2E4FCB11D83225073786574 /* Pods-GlobalButtonSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobalButtonSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		4D418DFCFBB937D070F39E47FEE1D5D7 /* Pods-GlobalButtonSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D4EB8AFBDE35DA76F538AF06EB56053 /* Pods-GlobalButtonSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlobalButtonSwift_Example.modulemap"; sourceTree = "<group>"; };
-		5C66AEFB118FE8DB78E94FC4AA2D831A /* GlobalButtonSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlobalButtonSwift-Info.plist"; sourceTree = "<group>"; };
-		6818B3E18E4C7F540F8E8C921C10D171 /* GlobalButtonSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalButtonSwift-umbrella.h"; sourceTree = "<group>"; };
 		6EBFDB33045F50A791C8108E55583D96 /* Pods-GlobalButtonSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GlobalButtonSwift_Tests"; path = Pods_GlobalButtonSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F5B344C315536E678BCD6C419188D96 /* DHGlobeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobeManager.swift; path = GlobalButtonSwift/Classes/DHGlobeManager.swift; sourceTree = "<group>"; };
+		6FF4CDC3C9D1C7E94D194F8F2A5F5D99 /* GlobalButtonSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalButtonSwift-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7541DB48116E59A5D4E82518BD1F7EFF /* DHGlobeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobeManager.swift; path = GlobalButtonSwift/Classes/DHGlobeManager.swift; sourceTree = "<group>"; };
+		78E8E36B79BE87771EF3B74B26EEC6EB /* GlobalButtonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalButtonSwift.debug.xcconfig; sourceTree = "<group>"; };
+		7A5445519E80E91127F558353A24F108 /* DHGlobalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobalView.swift; path = GlobalButtonSwift/Classes/DHGlobalView.swift; sourceTree = "<group>"; };
 		81B7CF88B7A9B3BA625DADF44150F207 /* Pods-GlobalButtonSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		83E97F902C38267A007DD7BE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		83E97F912C38267A007DD7BE /* DHGlobalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobalView.swift; sourceTree = "<group>"; };
-		83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobeAppManager.swift; sourceTree = "<group>"; };
-		83E97F932C38267A007DD7BE /* DHGlobeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHGlobeManager.swift; sourceTree = "<group>"; };
-		83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHHomeDataListView.swift; sourceTree = "<group>"; };
-		83E97F952C38267A007DD7BE /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8B0E99468AC08F2A0019E036ECF44957 /* Pods-GlobalButtonSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalButtonSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8FE523777FF7E6B97EC7815C22A2D8DB /* GlobalButtonSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlobalButtonSwift.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3D24529258BF82065E9C70F1E42730 /* Pods-GlobalButtonSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		A092CA64B20BE7408FF0129EEC0E43A7 /* Pods-GlobalButtonSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalButtonSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B19B6F4A6A9D0B1E389AD468A2974A82 /* GlobalButtonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalButtonSwift.debug.xcconfig; sourceTree = "<group>"; };
+		AA1D3D72F75B006CCE6C1A6294DF38A5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GlobalButtonSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B2EBE8EB213D4DC6E5CE5912B25AB3F5 /* Pods-GlobalButtonSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobalButtonSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B855E6DE10C28EE564BC4E2A2D9ADAB7 /* GlobalButtonSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalButtonSwift.release.xcconfig; sourceTree = "<group>"; };
 		C319BA6D0A374636E6520A85D719E383 /* Pods-GlobalButtonSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobalButtonSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C7424540003CE9688A5B8D2CB8A3A1AA /* Pods-GlobalButtonSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlobalButtonSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		C876BA64C8074EE6B2D531499181548D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GlobalButtonSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C7E023DF5DDB404E2695FFB8458D8B9A /* GlobalButtonSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlobalButtonSwift-dummy.m"; sourceTree = "<group>"; };
 		CCE647AE375E44DA44264457B9193D54 /* Pods-GlobalButtonSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GlobalButtonSwift_Example"; path = Pods_GlobalButtonSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD54CDD006D33F83CF297F0E17BEBA6 /* GlobalButtonSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlobalButtonSwift-Info.plist"; sourceTree = "<group>"; };
 		D5F78860D9B5139152D0BA93ACD3BA69 /* Pods-GlobalButtonSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E42FF2B1311B0F9BEC63F6047762BADD /* GlobalButtonSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GlobalButtonSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAE01D75AA157D89CEFC4704CEE799AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E5CD82338BBAA295396F5FB5431CFA3E /* GlobalButtonSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlobalButtonSwift; path = GlobalButtonSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHHomeDataListView.swift; path = GlobalButtonSwift/Classes/DHHomeDataListView.swift; sourceTree = "<group>"; };
-		F58C9CDA33909EF2E1FDED3A58D623EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB657E9F68966F3B8B63E4FD10031B00 /* Pods-GlobalButtonSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalButtonSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FBB62418F30C27E5E7279A297B813DF8 /* DHGlobeAppManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHGlobeAppManager.swift; path = GlobalButtonSwift/Classes/DHGlobeAppManager.swift; sourceTree = "<group>"; };
 		FDE58C57AAA80B5A130A94CCEDC9ED0E /* Pods-GlobalButtonSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalButtonSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE0A180A3FBF1CBA0E7FB9AEB3A406F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		134ACDADC8AB7DEC887059BB41026C31 /* Frameworks */ = {
+		3CFA6C28D929EA4174ED5681A38AFA99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BDCAF2899104500F6329C7564C0530 /* Foundation.framework in Frameworks */,
+				11FE9FCC7F1C94BA880FF5CF889A91F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +108,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5F47325DC03F2F031646D5E5091C2C /* GlobalButtonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7A5445519E80E91127F558353A24F108 /* DHGlobalView.swift */,
+				FBB62418F30C27E5E7279A297B813DF8 /* DHGlobeAppManager.swift */,
+				7541DB48116E59A5D4E82518BD1F7EFF /* DHGlobeManager.swift */,
+				1B7C4F20B0654E539CAE22493D3395B1 /* DHHomeDataListView.swift */,
+				AA1D3D72F75B006CCE6C1A6294DF38A5 /* ReplaceMe.swift */,
+				9B96AD39234FC156BBBA1EE4FA8B81C6 /* Pod */,
+				E63B8EA237631DD9B7AE7B5AEAB3B1D8 /* Support Files */,
+			);
+			name = GlobalButtonSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		174F982752C7C7ED3E1E15C7683792E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,20 +167,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		83E97F962C38267A007DD7BE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				83E97F902C38267A007DD7BE /* .gitkeep */,
-				83E97F912C38267A007DD7BE /* DHGlobalView.swift */,
-				83E97F922C38267A007DD7BE /* DHGlobeAppManager.swift */,
-				83E97F932C38267A007DD7BE /* DHGlobeManager.swift */,
-				83E97F942C38267A007DD7BE /* DHHomeDataListView.swift */,
-				83E97F952C38267A007DD7BE /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = GlobalButtonSwift/Classes;
-			sourceTree = "<group>";
-		};
 		99AD3ADA404C20DBAF3866CC82D1C123 /* Pods-GlobalButtonSwift_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,51 +183,21 @@
 			path = "Target Support Files/Pods-GlobalButtonSwift_Tests";
 			sourceTree = "<group>";
 		};
-		9DBC9AF61ADAB57602531381AA759FE7 /* Pod */ = {
+		9B96AD39234FC156BBBA1EE4FA8B81C6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E42FF2B1311B0F9BEC63F6047762BADD /* GlobalButtonSwift.podspec */,
-				FE0A180A3FBF1CBA0E7FB9AEB3A406F1 /* LICENSE */,
-				F58C9CDA33909EF2E1FDED3A58D623EC /* README.md */,
+				11A789711FDC0B9616B502EF7D2C3B3B /* GlobalButtonSwift.podspec */,
+				01980C1136E001848C70924C737E5130 /* LICENSE */,
+				DAE01D75AA157D89CEFC4704CEE799AE /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C95552C1B43D8DF520BA3B92182601CA /* GlobalButtonSwift */ = {
-			isa = PBXGroup;
-			children = (
-				83E97F962C38267A007DD7BE /* Classes */,
-				263132BC7266052A28C0ADBA78AEB160 /* DHGlobalView.swift */,
-				6F5B344C315536E678BCD6C419188D96 /* DHGlobeManager.swift */,
-				E9DFB4519EEFBCE998B801A0DF838485 /* DHHomeDataListView.swift */,
-				C876BA64C8074EE6B2D531499181548D /* ReplaceMe.swift */,
-				9DBC9AF61ADAB57602531381AA759FE7 /* Pod */,
-				CC0E3C4F450478D8DE47C81AAA0FE9DE /* Support Files */,
-			);
-			name = GlobalButtonSwift;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CC0E3C4F450478D8DE47C81AAA0FE9DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FE523777FF7E6B97EC7815C22A2D8DB /* GlobalButtonSwift.modulemap */,
-				2996A59AC2CFD601476FF868712D48E1 /* GlobalButtonSwift-dummy.m */,
-				5C66AEFB118FE8DB78E94FC4AA2D831A /* GlobalButtonSwift-Info.plist */,
-				0EA24ED245C9C61BA768F159E883AC9D /* GlobalButtonSwift-prefix.pch */,
-				6818B3E18E4C7F540F8E8C921C10D171 /* GlobalButtonSwift-umbrella.h */,
-				B19B6F4A6A9D0B1E389AD468A2974A82 /* GlobalButtonSwift.debug.xcconfig */,
-				B855E6DE10C28EE564BC4E2A2D9ADAB7 /* GlobalButtonSwift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GlobalButtonSwift";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E73313AF738BC7D6B17584264F33F2B0 /* Development Pods */,
+				F43D42CC5047D426651E73E43AB656D6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				174F982752C7C7ED3E1E15C7683792E1 /* Products */,
 				1B5D640215B95F60A92EE3F6184DA6F3 /* Targets Support Files */,
@@ -251,10 +212,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E73313AF738BC7D6B17584264F33F2B0 /* Development Pods */ = {
+		E63B8EA237631DD9B7AE7B5AEAB3B1D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C95552C1B43D8DF520BA3B92182601CA /* GlobalButtonSwift */,
+				469596BD511762C9232416EA9AE3F159 /* GlobalButtonSwift.modulemap */,
+				C7E023DF5DDB404E2695FFB8458D8B9A /* GlobalButtonSwift-dummy.m */,
+				CFD54CDD006D33F83CF297F0E17BEBA6 /* GlobalButtonSwift-Info.plist */,
+				6FF4CDC3C9D1C7E94D194F8F2A5F5D99 /* GlobalButtonSwift-prefix.pch */,
+				475E7FE42DCFB682EA492DCADF0A4274 /* GlobalButtonSwift-umbrella.h */,
+				78E8E36B79BE87771EF3B74B26EEC6EB /* GlobalButtonSwift.debug.xcconfig */,
+				0AEAE42D0C76EE6626090266EAFAF4F5 /* GlobalButtonSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GlobalButtonSwift";
+			sourceTree = "<group>";
+		};
+		F43D42CC5047D426651E73E43AB656D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D5F47325DC03F2F031646D5E5091C2C /* GlobalButtonSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -262,6 +238,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		44EEBF51ED3DF18B74102BDCD22FBD38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B3ADACA5B97DADB61EFD2409136C3 /* GlobalButtonSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F398F3CD75221CFD19A57D2996E4CD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,25 +262,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B015CC14FD8C03EAE84D354320C5CABC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A035DA7FBEEE13BB4CA737540E337D3 /* GlobalButtonSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		661F37A626C7A348CF4FA352FFE1C503 /* GlobalButtonSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB81B817D9FF17F41EA8E7FF047A2069 /* Build configuration list for PBXNativeTarget "GlobalButtonSwift" */;
+			buildConfigurationList = D35B38DAF7F339F939D4676726A6DB1E /* Build configuration list for PBXNativeTarget "GlobalButtonSwift" */;
 			buildPhases = (
-				B015CC14FD8C03EAE84D354320C5CABC /* Headers */,
-				FB49C99ADFF9914E4E77192EA7F41836 /* Sources */,
-				134ACDADC8AB7DEC887059BB41026C31 /* Frameworks */,
-				9597C994195BDA21C8D3EDE41D712EA4 /* Resources */,
+				44EEBF51ED3DF18B74102BDCD22FBD38 /* Headers */,
+				E879007B49BD3D21A4FB47236A9A890E /* Sources */,
+				3CFA6C28D929EA4174ED5681A38AFA99 /* Frameworks */,
+				F362E0A2192C4D56F73B8E0D6FDD7491 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3B75090A3F4E5F7D97152F0E30C87718 /* PBXTargetDependency */,
+				A3D0393DCB1074AB0C3673032CF54DDD /* PBXTargetDependency */,
 			);
 			name = "Pods-GlobalButtonSwift_Tests";
 			productName = Pods_GlobalButtonSwift_Tests;
@@ -338,7 +314,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A77E5A8848307B99E705420222CECF87 /* PBXTargetDependency */,
+				678D2E9291B59056C92745E5744E5B2A /* PBXTargetDependency */,
 			);
 			name = "Pods-GlobalButtonSwift_Example";
 			productName = Pods_GlobalButtonSwift_Example;
@@ -351,8 +327,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,11 +358,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9597C994195BDA21C8D3EDE41D712EA4 /* Resources */ = {
+		F362E0A2192C4D56F73B8E0D6FDD7491 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E97F972C38267A007DD7BE /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,75 +391,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB49C99ADFF9914E4E77192EA7F41836 /* Sources */ = {
+		E879007B49BD3D21A4FB47236A9A890E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2E98F12C16F319EC6A4F5DFB976CE0 /* DHGlobalView.swift in Sources */,
-				83E97F992C38267A007DD7BE /* DHGlobeAppManager.swift in Sources */,
-				83E97F9B2C38267A007DD7BE /* DHHomeDataListView.swift in Sources */,
-				24CF55B2A42A3574E14D7E6A06B3F53A /* DHGlobeManager.swift in Sources */,
-				83E97F9C2C38267A007DD7BE /* ReplaceMe.swift in Sources */,
-				803CB8CA4D218F2E6C647DC6B237FD41 /* DHHomeDataListView.swift in Sources */,
-				83E97F982C38267A007DD7BE /* DHGlobalView.swift in Sources */,
-				DD2FBDD02BA758BD9F3631B077EEFC84 /* GlobalButtonSwift-dummy.m in Sources */,
-				54CC5E9358ECDC5549D1EDC183F61619 /* ReplaceMe.swift in Sources */,
-				83E97F9A2C38267A007DD7BE /* DHGlobeManager.swift in Sources */,
+				11FE3ED1B9FC3C184E5A6AD2C95ACB26 /* DHGlobalView.swift in Sources */,
+				B3DBE0CE7BEB35B56B8454441B02A89F /* DHGlobeAppManager.swift in Sources */,
+				7A18EF79447ABBDD1C1C0D19D9D681A7 /* DHGlobeManager.swift in Sources */,
+				BD71C2DCCD863230C16C51938A69939C /* DHHomeDataListView.swift in Sources */,
+				A366079CE784119AFA3A034E5A3EAA35 /* GlobalButtonSwift-dummy.m in Sources */,
+				BC0422FBFE08F069208299AB9A6F2CDC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B75090A3F4E5F7D97152F0E30C87718 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GlobalButtonSwift_Example";
-			target = EAD29F81471E179819A847C71A08ED6B /* Pods-GlobalButtonSwift_Example */;
-			targetProxy = 1AB4772BC646C2B217907D849B5BC99E /* PBXContainerItemProxy */;
-		};
-		A77E5A8848307B99E705420222CECF87 /* PBXTargetDependency */ = {
+		678D2E9291B59056C92745E5744E5B2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GlobalButtonSwift;
 			target = 661F37A626C7A348CF4FA352FFE1C503 /* GlobalButtonSwift */;
-			targetProxy = 760BDE53DD525F1F0C620E49B4BF674D /* PBXContainerItemProxy */;
+			targetProxy = 5993ED0FA900952BCBB4E70FEB1A3F54 /* PBXContainerItemProxy */;
+		};
+		A3D0393DCB1074AB0C3673032CF54DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GlobalButtonSwift_Example";
+			target = EAD29F81471E179819A847C71A08ED6B /* Pods-GlobalButtonSwift_Example */;
+			targetProxy = AEDB7BDB5949FDCB8907AD4EA7E3C0E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11AF014B629D175B79AAAEC053220A06 /* Debug */ = {
+		334D8B22F504DD28C0ADF598E3902B89 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B19B6F4A6A9D0B1E389AD468A2974A82 /* GlobalButtonSwift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift.modulemap";
-				PRODUCT_MODULE_NAME = GlobalButtonSwift;
-				PRODUCT_NAME = GlobalButtonSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		428539813CA8AAD8B0A0D7F10425C59B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B855E6DE10C28EE564BC4E2A2D9ADAB7 /* GlobalButtonSwift.release.xcconfig */;
+			baseConfigurationReference = 0AEAE42D0C76EE6626090266EAFAF4F5 /* GlobalButtonSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -635,7 +575,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -708,6 +649,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C38B5FD161CD7AEADF56D72CBC88C20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E8E36B79BE87771EF3B74B26EEC6EB /* GlobalButtonSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlobalButtonSwift/GlobalButtonSwift.modulemap";
+				PRODUCT_MODULE_NAME = GlobalButtonSwift;
+				PRODUCT_NAME = GlobalButtonSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -805,11 +777,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB81B817D9FF17F41EA8E7FF047A2069 /* Build configuration list for PBXNativeTarget "GlobalButtonSwift" */ = {
+		D35B38DAF7F339F939D4676726A6DB1E /* Build configuration list for PBXNativeTarget "GlobalButtonSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11AF014B629D175B79AAAEC053220A06 /* Debug */,
-				428539813CA8AAD8B0A0D7F10425C59B /* Release */,
+				C38B5FD161CD7AEADF56D72CBC88C20D /* Debug */,
+				334D8B22F504DD28C0ADF598E3902B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,4 +30,7 @@ open class DHGlobeAppManager {
             }
         }
     }
+    public static func killApp() {
+        exit(0)
+    }
 }

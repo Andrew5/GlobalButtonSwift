@@ -11,14 +11,14 @@ import GlobalButtonSwift
 
 class ViewController: UIViewController {
     @objc
-    static var baseURLString = "https://api-uat.bnto.rent"
+    static var baseURLString = ""
     
     fileprivate let submitButton: UIButton = {
         let label = UIButton()
         label.titleLabel?.textAlignment = .center
         label.setTitle("JOIN NOW", for: .normal)
         label.setTitleColor(UIColor.black, for: .normal)
-        label.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        label.frame = CGRect(x: 10, y: 100, width: UIScreen.main.bounds.size.width, height: 30)
         return label
     }()
     
@@ -28,7 +28,8 @@ class ViewController: UIViewController {
         
         self.view.addSubview(submitButton)
         submitButton.addTarget(self, action: #selector(joinnowAction(_:)), for: .touchUpInside)
-        
+        ViewController.baseURLString = GlobalButtonSwift.DHGlobeManager.selectedEnvMap["baseURLString"] ?? ""
+
 //        let dictUAT:[String:String] = ["devbaseURLString":"https://api-uat.bnto.rent"]
 //        let dictPRO:[String:String] = ["baseURLString":"https://api.bnto.rent"]
 //        
@@ -64,8 +65,9 @@ class ViewController: UIViewController {
         let currentEnvironmentConfig = DHGlobeManager.selectedEnvMap
 
         // 设想使用场景：获取当前环境的 HostDomain
-        if let hostDomain = currentEnvironmentConfig["devbaseURLString"] {
+        if let hostDomain = currentEnvironmentConfig["baseURLString"] {
             print("当前环境的HostDomain为: \(hostDomain)---\(String(describing: currentEnvironment))")
+            submitButton.setTitle(ViewController.baseURLString, for: .normal)
         }
         print("ViewController.baseURLString\(ViewController.baseURLString)")
 

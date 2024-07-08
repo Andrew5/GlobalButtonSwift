@@ -33,11 +33,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let hostDomain = currentEnvironmentConfig["baseURLString"] {
                 print("当前环境的baseURLString为: \(hostDomain)")
                 ViewController.baseURLString = hostDomain
+                GlobalButtonSwift.DHGlobeAppManager.killApp()
             }
-            exit(0)
-            // 清理本地数据
+//            // 清理本地数据
 //            DHGlobeAppManager.clearLocalData()
-            // 模拟应用重启
+////             模拟应用重启
 //            DHGlobeAppManager.restartApp()
         }
 

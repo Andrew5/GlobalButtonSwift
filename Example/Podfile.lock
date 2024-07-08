@@ -1,5 +1,5 @@
 PODS:
-  - GlobalButtonSwift (0.1.1)
+  - GlobalButtonSwift (0.1.4)
 
 DEPENDENCIES:
   - GlobalButtonSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlobalButtonSwift: a8fdc2d8cd0a2827f3f067b6ec72d79355552ab5
+  GlobalButtonSwift: cf60734004bb0947b4a1e5be83cc06687dc89312
 
 PODFILE CHECKSUM: 5f469641935385b3f4f802b6d3cca72d075c79f1
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1
